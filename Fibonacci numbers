@@ -1,0 +1,8 @@
+#Program for Fibonacci numbers
+n=int(input('Enter the number of Fibonacci numbers to be printed: '))
+l=[0,1]
+for i in range(2,n):
+    a=l[i-2]+l[i-1]
+    l.append(a)
+for i in l:
+    print(i)
