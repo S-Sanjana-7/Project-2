@@ -1,0 +1,6 @@
+#Program for printing the positive numbers
+s=input('Enter the numbers in a single line with space between them: ')
+l=s.split()
+for i in l:
+    if int(i)>=0:
+        print(i)
